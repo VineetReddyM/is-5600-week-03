@@ -2,7 +2,6 @@ const express = require('express');
 const path = require('path');
 const EventEmitter = require('events');
 
-
 const port = process.env.PORT || 3000;
 const chatEmitter = new EventEmitter();
 
